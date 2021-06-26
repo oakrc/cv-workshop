@@ -1,3 +1,5 @@
+package org.firstinspires.ftc.teamcode;
+
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;
@@ -82,7 +84,7 @@ public class ZoneChooser extends OpenCvPipeline {
         telemetry.addData("Top", upperValue + "%");
         telemetry.addData("Lower", lowerValue + "%");
         telemetry.addData("Threshold", THRESHOLD);
-        telemetry.addData("Target Zone", target);
+        telemetry.addData("org.firstinspires.ftc.teamcode.Target Zone", target);
 
         return input;
     }
