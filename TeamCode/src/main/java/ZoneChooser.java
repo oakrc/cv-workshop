@@ -80,7 +80,7 @@ public class ZoneChooser extends OpenCvPipeline {
         }
 
         telemetry.addData("Top", upperValue + "%");
-        telemetry.addData("Top", lowerValue + "%");
+        telemetry.addData("Lower", lowerValue + "%");
         telemetry.addData("Threshold", THRESHOLD);
         telemetry.addData("Target Zone", target);
 
